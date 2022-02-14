@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  color: #FFFFFF;
+  padding: 5px;
+}
+
+.navbar-title {
+  font-size: 17pt;
+  margin-left: 10px;
+  font-weight: lighter;
+}
+
+.earth-icon {
+  font-size: 22pt;
+}
+
+.card {
+  margin-top: 5rem;
+  margin-left: 25%;
+}
+
+.travel-image {
+  padding: 0px 15px 15px 15px;
+  height: 300px;
+  float: left;
+}
+
+.location-dot {
+  color: #F55A5A;
+  margin-top: 25px;
+}
+
+.location-text {
+  margin-left: 10px;
+  font-size: 10pt;
+  color: #2B283A;
+  letter-spacing: 2px;
+  font-weight: none;
+}
+
+.google-maps {
+  margin-left: 25px;
+  color: #918E9B;
+  font-size: 10.24pt;
+}
+
+
+.card > h4 {
+  margin-top: 2.5rem;
+}
+
+.card > p {
+  max-width: 750px;
+}
+
+
+
